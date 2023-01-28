@@ -18,6 +18,7 @@ app.use((req, res, next)=>{
 
 //home route 
 app.get('/',(req , res)=>{
+    console.log("You are on home")
     res.send(
         "Welcome to workout api | getworkout  add /api/workouts/ to the end of the link")
 })
